@@ -34,10 +34,6 @@ class LinkedList {
         }
     }
 
-    public Node getHead() {
-        return head;
-    }
-
     public Node getMiddle() {
         if (head == null) return null;
         Node slow = head;
